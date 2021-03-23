@@ -42,6 +42,7 @@
     "@types/jest": "~25.1.4",
     "@types/node": "~13.9.5",
     "@types/shelljs": "~0.8.7",
+    "@types/xmlpoke": "^0.1.5",
     "@types/xregexp": "~4.3.0",
     "@typescript-eslint/eslint-plugin": "~2.26.0",
     "@typescript-eslint/parser": "~2.26.0",
