@@ -1,8 +1,11 @@
 name: 'Patch files'
-description: 'A simple action to patch JSON files'
+description: 'A simple action to patch JSON/XML files'
 author: 'Utkarsh Shigihalli'
 
 inputs:
+  filesType:
+    description: "Type of files this action should patch: `xml` or `json`. Defaults to `json`."
+    default: "json"
   files:
     description: 'Required. Files to scan. e.g., testfiles/**/*.json'
     required: true
